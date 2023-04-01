@@ -3,8 +3,8 @@ import { addInner } from "https://bukulapak.github.io/element/process.js";
 import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/image/process.js";
 import { isiTabel } from "./table.js";
 let urlAPI = "https://pemrog3-ulbi.herokuapp.com/presensi";
-get(urlAPI, isiTablePresensi);
-function isiTablePresensi(results) {
+get(urlAPI, isiTableAbsensensi);
+function isiTableAbsensi(results) {
     results.forEach(isiRow);
 }
 function isiRow(value) {
