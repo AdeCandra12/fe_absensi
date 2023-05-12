@@ -1,5 +1,4 @@
-export let urlPOST = "URLHEROKU/ins"
-
+export let urlPOST = "https://pemrog3-ulbi.herokuapp.com/ins"
 export function AmbilResponse(result) {
     console.log(result); //menampilkan response API pada console
     alert(result.message); //menampilkan response API pada alert
